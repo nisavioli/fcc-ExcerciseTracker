@@ -6,7 +6,8 @@
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js",
-		"debug": "node --inspect server.js"
+		"debug": "node --inspect server.js",
+		"dev": "nodemon --inspect server.js"
 	},
 	"dependencies": {
 		"body-parser": "^1.15.2",
