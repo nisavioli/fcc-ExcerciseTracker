@@ -10,6 +10,7 @@
 		"dev": "nodemon --inspect server.js"
 	},
 	"dependencies": {
+		"@types/node": "^10.12.12",
 		"body-parser": "^1.15.2",
 		"cors": "^2.8.1",
 		"dotenv": "^6.1.0",
